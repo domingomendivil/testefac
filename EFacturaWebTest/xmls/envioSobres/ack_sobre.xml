@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns1:ACKSobre version="1.0" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ns1="http://cfe.dgi.gub.uy" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cfe.dgi.gub.uy ACKSobre_112.xsd ">
+  <ns1:Caratula>
+    <ns1:RUCReceptor>ns1:RUCReceptor</ns1:RUCReceptor>
+    <ns1:RUCEmisor>219000090011</ns1:RUCEmisor>
+    <ns1:IDRespuesta>0</ns1:IDRespuesta>
+    <ns1:NomArch>ns1:NomArch</ns1:NomArch>
+    <ns1:FecHRecibido>2001-12-31T12:00:00</ns1:FecHRecibido>
+    <ns1:IDEmisor>0</ns1:IDEmisor>
+    <ns1:IDReceptor>0</ns1:IDReceptor>
+    <ns1:CantidadCFE>0</ns1:CantidadCFE>
+    <ns1:Tmst>2001-12-31T12:00:00</ns1:Tmst>
+  </ns1:Caratula>
+  <ns1:Detalle>
+    <ns1:Estado>AS</ns1:Estado>
+  </ns1:Detalle>
+  <ds:Signature>
+    <ds:SignedInfo>
+      <ds:CanonicalizationMethod Algorithm="http://tempuri.org"/>
+      <ds:SignatureMethod Algorithm="http://tempuri.org"/>
+      <ds:Reference>
+        <ds:DigestMethod Algorithm="http://tempuri.org"/>
+        <ds:DigestValue>MA==</ds:DigestValue>
+      </ds:Reference>
+    </ds:SignedInfo>
+    <ds:SignatureValue>MA==</ds:SignatureValue>
+  </ds:Signature>
+</ns1:ACKSobre>

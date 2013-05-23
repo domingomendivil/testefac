@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"  elementFormDefault="unqualified">
+
+    <element name="Respuestas">
+    	<complexType>
+    		<sequence>
+    			<element name="Respuesta">
+    				<complexType>
+    					<sequence>
+    						<element name="Codigo" type="int"></element>
+    						<element name="Descripcion" type="string"></element>
+    						<element name="Detalle" type="string"></element>
+    					</sequence>
+    				</complexType>
+    			</element>
+    		</sequence>
+    	</complexType>
+    </element>
+</schema>

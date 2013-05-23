@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns1:ACKCFE version="1.0" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ns1="http://cfe.dgi.gub.uy" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cfe.dgi.gub.uy ../../../EFacturaWeb/xsds/ACKCFE_DGI_111.xsd ">
+  <ns1:Caratula>
+    <ns1:RUCReceptor>219000090011</ns1:RUCReceptor>
+    <ns1:RUCEmisor>219000090011</ns1:RUCEmisor>
+    <ns1:IDRespuesta>0</ns1:IDRespuesta>
+    <ns1:NomArch>ns1:NomArch</ns1:NomArch>
+    <ns1:FecHRecibido>2001-12-31T12:00:00</ns1:FecHRecibido>
+    <ns1:IDEmisor>0</ns1:IDEmisor>
+    <ns1:IDReceptor>0</ns1:IDReceptor>
+    <ns1:CantenSobre>0</ns1:CantenSobre>
+    <ns1:CantResponden>0</ns1:CantResponden>
+    <ns1:CantCFEAceptados>0</ns1:CantCFEAceptados>
+    <ns1:CantCFERechazados>0</ns1:CantCFERechazados>
+    <ns1:CantCFCAceptados>0</ns1:CantCFCAceptados>
+    <ns1:CantCFCObservados>0</ns1:CantCFCObservados>
+    <ns1:CantOtrosRechazados>0</ns1:CantOtrosRechazados>
+    <ns1:Tmst>2001-12-31T12:00:00</ns1:Tmst>
+  </ns1:Caratula>
+  <ns1:ACKCFE_Det>
+    <ns1:Nro_ordinal>0</ns1:Nro_ordinal>
+    <ns1:TipoCFE>101</ns1:TipoCFE>
+    <ns1:Serie>ns1:Serie</ns1:Serie>
+    <ns1:NroCFE>0</ns1:NroCFE>
+    <ns1:FechaCFE>2001-01-01</ns1:FechaCFE>
+    <ns1:TmstCFE>2001-12-31T12:00:00</ns1:TmstCFE>
+    <ns1:Estado>AE</ns1:Estado>
+    <ns1:MotivosRechazoCF>
+      <ns1:Motivo>A02</ns1:Motivo>
+      <ns1:Glosa>ns1:Glosa</ns1:Glosa>
+    </ns1:MotivosRechazoCF>
+  </ns1:ACKCFE_Det>
+  <ds:Signature Id="idvalue0">
+    <ds:SignedInfo Id="idvalue1">
+      <ds:CanonicalizationMethod Algorithm="http://tempuri.org"/>
+      <ds:SignatureMethod Algorithm="http://tempuri.org"/>
+      <ds:Reference Id="idvalue2" Type="http://tempuri.org" URI="http://tempuri.org">
+        <ds:DigestMethod Algorithm="http://tempuri.org"/>
+        <ds:DigestValue>MA==</ds:DigestValue>
+      </ds:Reference>
+    </ds:SignedInfo>
+    <ds:SignatureValue Id="idvalue3">MA==</ds:SignatureValue>
+    <ds:KeyInfo Id="idvalue4">
+      <ds:KeyName>ds:KeyName</ds:KeyName>
+    </ds:KeyInfo>
+    <ds:Object Encoding="http://tempuri.org" Id="idvalue5" MimeType=""/>
+  </ds:Signature>
+</ns1:ACKCFE>
